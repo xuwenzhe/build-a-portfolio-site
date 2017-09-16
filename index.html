@@ -2,33 +2,50 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>Wenzhe's portfolio</title>
-	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
-	<header><h1>WENZHE XU</h1><h2>FRONT-END PORTFOLIO</h2></header>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2 logo">
+					<img src="./image/udacity.png" alt="udacity logo">
+				</div>
+				<div class="col-sm-10 site-name right">
+					<h1>WENZHE XU</h1>
+					<h2>FRONT-END PORTFOLIO</h2>
+				</div>
+			</div>
+		</div>
+	</header>
 	<hr>
-	<div>
-		<img src="./image/1200by600.png">
-		<p>Featured Work</p>
-		<div>
-<!-- 			<div>
-				<img src="./image/300by300.png" alt="work1">
-				work1
+
+	<div>		
+		<img class="site-image" src="./image/site-image.jpg" alt="front-end image">
+
+		<p class="featured-work">Featured Work</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<img class="img-center" src="./image/portfolio.png" alt="portfolio">
+					<p class="project-name"><a href="https://github.com/xuwenzhe/build-a-portfolio-site">Portfolio</a></p>
+					<p class="project-url">https://github.com/xuwenzhe/build-a-portfolio-site</p>
+				</div>
+				<div class="col-sm-4">
+					<img class="img-center" src="./image/leetcode.png" alt="data structure and algorithm">
+					<p class="project-name"><a href="https://github.com/xuwenzhe/leetcode">Leetcode</a></p>
+					<p class="project-url">https://github.com/xuwenzhe/leetcode</p>
+				</div>
+				<div class="col-sm-4">
+					<img class="img-center" src="./image/notes.jpeg" alt="self notes">
+					<p class="project-name"><a href="https://github.com/xuwenzhe/selfnotes">Selfnotes</a></p>
+					<p class="project-url">https://github.com/xuwenzhe/selfnotes</p>
+				</div>
 			</div>
-			<div>
-				<img src="./image/300by300.png" alt="work2">
-				work2
-			</div>
-			<div>
-				<img src="./image/300by300.png" alt="work3">
-				work3
-			</div>	 -->
-			<img src="./image/300by300.png" alt="work1">
-			<img src="./image/300by300.png" alt="work2">
-			<img src="./image/300by300.png" alt="work3">
 		</div>
 	</div>
-	<footer></footer>
 </body>
 </html>
